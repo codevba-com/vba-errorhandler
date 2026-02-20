@@ -1,7 +1,6 @@
 # VBA ErrorHandler - the HandleError function
 This small repository contains an ErrorHandler module with a central HandleError function featuring user message dialog with optional Cancel, logging and reporting by email to the developer/adminstrator. <i>To use the ErrorHandler requires you to include [module MailToProxy](https://github.com/codevba-com/vba-mailtoproxy) in the VBA project.</i> 
 ## Table of Contents
-- [VBA ErrorHandler – the HandleError function](#vba-errorhandler--the-handleerror-function)
 - [Example use of the HandleError function](#example-use-of-the-handleerror-function)
 - [HandleError function parameters](#handleerror-function-parameters)
 - [Testing the HandleError function behaviour](#testing-the-handleerror-function-behaviour)
