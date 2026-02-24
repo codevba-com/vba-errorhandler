@@ -1,5 +1,5 @@
 Attribute VB_Name = "ErrorHandler"
-'<include MailToProxy.cls>
+'<include MailToProxy.bas>
 Option Explicit
 ' =============================================================================
 ' Module:        ErrorHandler
@@ -38,7 +38,7 @@ Private strErrorTitleSimple As String
 
 Public Function HandleError(Err As ErrObject, Optional FeedbackType As ErrorFeedbackType = eftDefault, _
     Optional Module As String, Optional Procedure As String, _
-    Optional ExtraInfo As String, Optional ErrLine As Long, Optional AddCancelButton = False) As Boolean
+    Optional ExtraInfo As String, Optional ErrLine As Long, Optional AddCancelButton As Boolean = False) As Boolean
 'If the user presses Cancel HandleError returns False, meaning 'don't continue'
     HandleError = True
     Dim MessageShort As String
